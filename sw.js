@@ -2,10 +2,10 @@
 //  ALI TIME CU SE DETALJNO POZBAVITI
 self.addEventListener('install', function(event) {
     event.waitUntil(
-      caches.open('my_first_pwa')
+      caches.open('first-app')
         .then(function(cache) {
           cache.addAll([
-            // '/',
+            '/',
             '/index.html',
             '/src/css/app.css',
             '/src/js/app.js'
