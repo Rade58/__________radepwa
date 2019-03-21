@@ -1,5 +1,3 @@
-// self JE, SPECIJALNI KEYTERM, KOJI SE ODNOSI NA window
-//  ALI TIME CU SE DETALJNO POZBAVITI
 self.addEventListener('install', function(event) {
     event.waitUntil(
       caches.open('first-app')
