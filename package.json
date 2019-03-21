@@ -1,0 +1,20 @@
+{
+  "name": "moj_pwa",
+  "version": "1.0.0",
+  "description": "Jednostavna ogledna aplikacija",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server -c-1 -p 8880"
+  },
+  "keywords": [
+    "pwa",
+    "progressive",
+    "web",
+    "app"
+  ],
+  "author": "Rade",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^0.11.1"
+  }
+}

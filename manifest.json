@@ -1,0 +1,8 @@
+{
+    "name": "osnovni pwa app",
+    "short_name": "basic pwa",
+    "lang": "sr-Latn-CS",
+    "start-url": "/",
+    "display": "fullscreen",
+    "theme_color": "#BAD55"
+}
