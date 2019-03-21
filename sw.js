@@ -5,7 +5,7 @@ self.addEventListener('install', function(event) {
       caches.open('my_first_pwa')
         .then(function(cache) {
           cache.addAll([
-            '/',
+            // '/',
             '/index.html',
             '/src/css/app.css',
             '/src/js/app.js'
